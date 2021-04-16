@@ -1,0 +1,227 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+* {
+
+}
+
+/* Header */
+.header{
+    background-color: #2A8086;
+    box-shadow: 0 13px 0 rgba(0,0,0,0.1);
+}
+
+.container {
+    max-width: 1580px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 109px;
+}
+
+.logo-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    color: #0D444D;
+}
+
+.logo-link {
+    text-decoration: none;
+}
+
+.logo-img {
+    display: block;
+    position: relative;
+    top: -31px;
+    left: 29px;
+}
+
+.header-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav-list__item {
+    margin-right: 50px;
+}
+
+.nav-list__link {
+    text-decoration: none;
+    color: #C5E1E5;
+}
+
+.user-nav {
+    margin: 0 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-nav__item {
+    margin-left: 40px;
+}
+
+.user-nav__button {
+    text-decoration: none;
+    color: #C5E1E5;
+}
+.main {
+
+}
+
+.main {
+
+}
+.animals-online {
+    background-image: url("../images/src/section-background.png") ;
+    background-repeat: no-repeat;
+    background-color: #F6F9FA;
+    background-size: 100% 100%;
+}
+.animals-online-wrapper{
+    display: flex;
+}
+.watch-left-column {
+
+}
+.animals-online__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    line-height: 75px;
+    font-style: normal;
+    font-weight: 300;
+    color: #F3F7F8;
+    margin-top: 100px;
+
+}
+.title-bold {
+    font-weight: 500;
+}
+
+.animals-online__text {
+    font-size: 14px;
+    color: #F3F7F8;
+    margin-top: 27px;
+}
+.animals-online__btn {
+    padding: 14px 84px;
+    color: #0D444D;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    margin-top: 87px;
+}
+.btn { }
+.watch-right-column {
+    margin-top: 47px;
+    margin-bottom: 79px;
+}
+.watch__btn {
+    border-radius: 59% 41% 41% 59% / 65% 56% 44% 35%;
+}
+
+/* main section */
+
+.how-it-works {
+
+}
+.how-it-works-section{
+    background-color: #F6F9FA;
+}
+.how-it-works-title {
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #0D444D;
+}
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.highlits__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.highlits__element--wrapper {
+    display: flex;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 50px 2px rgba(0, 0, 0, 0.06);
+}
+.highlits__element__text {
+    margin-top: 15px;
+}
+.how-it-works__bottom {
+    margin-top: 144px;
+    background-image: url(../images/src/section-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.panda {
+    display: block;
+}
+/*-------------------------*/
+.pets-in-zoo {
+    background-color: #F6F9FA;
+
+}
+.slider-wrapper {
+ display: flex;
+}
+.pets-in-zoo-header-wrapper { }
+.pets-in-zoo-title { }
+.favorite-btn { }
+.pets-in-zoo__categories {
+    display: flex;
+flex-wrap: wrap;
+
+}
+.categories-element {
+    flex-grow: 1;
+
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 480px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.categories-img {
+    display: block;
+    display: block;
+    padding: 20px 125px 30px;
+}
+.categories-text-wrapper {
+
+}
+.categories-title { }
+.categories-text { }
+
+.separator {
+
+}
+
